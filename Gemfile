@@ -2,7 +2,6 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.16'
 gem 'foundation-rails'
-gem 'zurb-foundation'
 gem 'rubycas-client'
 gem 'person_record', :git=> 'https://github.com/haynescw/PersonRecord.git' 
 gem 'bootstrap-sass', '2.1'
