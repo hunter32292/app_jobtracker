@@ -5,6 +5,7 @@ gem 'foundation-rails'
 gem 'rubycas-client'
 gem 'person_record', :git=> 'https://github.com/haynescw/PersonRecord.git' 
 gem 'bootstrap-sass', '2.1'
+gem 'icalendar'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
