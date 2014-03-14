@@ -67,6 +67,6 @@ AppJobtracker::Application.configure do
 
 	#	add modernizr to precompiled assets pipeline
 	config.assets.precompile += %w(vendor/modernizr.js)
-
+	PUBLIC_URL = "http://my.site.com/"
 
 end

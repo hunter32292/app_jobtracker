@@ -13,32 +13,11 @@
 class User < ActiveRecord::Base
   attr_accessible :username, :department, :email, :name
 
-
-
 	belongs_to :department
+	has_many :events
+	
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	
 
 
 

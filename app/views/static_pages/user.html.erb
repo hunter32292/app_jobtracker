@@ -1,9 +1,22 @@
-<h1>StaticPages#user</h1>
-<p>
-Users- 
-View schedule 
-View skills/expertise
-See who's in charge of them
-Work title
-</p>
+<h1>Users</h1>
+<div class="topcontainer">
+	<div class="calendar">
+	<%= render 'shared/calendar' %>
+	</div>
+	<div class="userinfobar">
+	<%= render 'shared/user_infobar' %>
+	</div>
+</div>
+<h3></h3>
+<div class="lowercontainer">
+	<div class="userpicker">
+	<%= render 'shared/user_picker' %>
+	</div>
+	<div class="eventinfo">
+	<%= render 'shared/event_info' %>
+	</div>
+</div>
+
+
+
 

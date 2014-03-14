@@ -55,6 +55,7 @@ GEM
       sass (>= 3.2.0)
     hike (1.2.3)
     i18n (0.6.9)
+    icalendar (1.5.1)
     journey (1.0.4)
     jquery-rails (3.1.0)
       railties (>= 3.0, < 5.0)
@@ -91,13 +92,10 @@ GEM
     rake (10.1.1)
     rdoc (3.12.2)
       json (~> 1.4)
-    ruby-msg (1.5.1)
-      ruby-ole (>= 1.2.8)
-      vpim (>= 0.360)
-    ruby-ole (1.2.11.7)
     rubycas-client (2.3.9)
       activesupport
-    sass (3.2.14)
+    sass (3.3.0)
+      rake
     sass-rails (3.2.6)
       railties (~> 3.2.0)
       sass (>= 3.1.10)
@@ -114,11 +112,10 @@ GEM
     treetop (1.4.15)
       polyglot
       polyglot (>= 0.3.1)
-    tzinfo (0.3.38)
+    tzinfo (0.3.39)
     uglifier (2.4.0)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
-    vpim (13.11.11)
 
 PLATFORMS
   ruby
@@ -127,11 +124,11 @@ DEPENDENCIES
   bootstrap-sass (= 2.1)
   coffee-rails (~> 3.2.1)
   foundation-rails
+  icalendar
   jquery-rails
   json
   person_record!
   rails (= 3.2.16)
-  ruby-msg
   rubycas-client
   sass-rails (~> 3.2.3)
   sqlite3

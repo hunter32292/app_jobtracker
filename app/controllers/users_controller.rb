@@ -2,7 +2,6 @@ class UsersController < ApplicationController
 
 	def show
 		@user = User.find(params[:id])
-		@schdules = @user.schdule(params[:id])
 	end
 
 	

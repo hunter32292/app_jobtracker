@@ -1,0 +1,11 @@
+<% provide(:title, @user.name) %>
+
+#create slector for department
+
+
+#create list of users for that department and option to click them
+<div class="userslist">
+ <%= will_paginate @user %>
+</div>
+
+<% end %>
