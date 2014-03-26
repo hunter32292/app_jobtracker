@@ -1,11 +1,12 @@
-<% provide(:title, @user.name) %>
+<!-- Create a pagniated table of users for selecting a user and making them the active user
+ 
+create selector for department
+create list of users for that department and option to click them
+-->
 
-#create slector for department
-
-
-#create list of users for that department and option to click them
 <div class="userslist">
- <%= will_paginate @user %>
+<if @user.any? %> 
+	<%= will_paginate @user %>
 </div>
 
-<% end %>
+<%end%>

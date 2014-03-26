@@ -2,6 +2,12 @@ class EventsController < ApplicationController
 
 
 
+	def new 
+		@events = Events.new
+	end
+
+	
+
 	# this is the Ical to create it's initial blank cal
 	# http://dev.af83.com/2008/03/04/publishing-icalendar-events-with-ruby-on-rails.html
 	# to see process go to the above link
@@ -21,6 +27,7 @@ class EventsController < ApplicationController
 
 	def edit
 	end
+
 	
 	#This is going to send e-mail to specfic users, allowing them to see a event
 	def notification
@@ -48,5 +55,6 @@ class EventsController < ApplicationController
 				render :text => ical.to_ical
 		end
 	end 			
+
 
 end

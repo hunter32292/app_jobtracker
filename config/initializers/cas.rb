@@ -3,5 +3,5 @@
  
  CASClient::Frameworks::Rails::Filter.configure(
    :cas_base_url => "https://ash.uwec.edu/cas",
-   :validate_url=> "https://ash1.uwec.edu:8443/cas/serviceValidate"
+   :validate_url=> "https://ash2.uwec.edu:8443/cas/serviceValidate"
 )
