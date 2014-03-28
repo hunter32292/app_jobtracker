@@ -15,4 +15,24 @@
 //= require_tree .
 
 //= require foundation
-$(function(){ $(document).foundation(); });
+//$(function(){ $(document).foundation(); });
+
+$(document).ready(function() {    
+
+$('#tabs li a:not(:first)').addClass('inactive');
+$('.containerT').hide();
+$('.containerT:first').show();
+    
+$('#tabs li a').click(function(){
+    var t = $(this).attr('id');
+  if($(this).hasClass('inactive')){ //this is the start of our condition 
+    $('#tabs li a').addClass('inactive');           
+    $(this).removeClass('inactive');
+    
+    $('.containerT').hide();
+    $('#'+ t + 'C').fadeIn('slow');
+ }
+});
+
+});
+

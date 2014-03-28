@@ -1,6 +1,8 @@
 AppJobtracker::Application.routes.draw do
 	
 
+  match '/calendar(/:year(/:month))' => 'calendar#index', :as => :calendar, :constraints => {:year => /\d{4}/, :month => /\d{1,2}/}
+
 	get "user/new"
 
 	match '/projects', :to=> 'static_pages#projects'
