@@ -5,7 +5,7 @@ gem 'foundation-rails'
 gem 'rubycas-client'
 #gem 'person_record', :git=> 'https://github.com/haynescw/PersonRecord.git' 
 gem 'bootstrap-sass', '2.1'
-gem 'icalendar'
+#gem 'icalendar'
 gem 'event-calendar', :require => 'event_calendar'
 
 # Bundle edge Rails instead:

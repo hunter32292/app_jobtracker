@@ -1,19 +1,11 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
 one:
-  title: MyString
-  date: 2014-03-12 11:02:45
-  end_date: 2014-03-12 11:02:45
-  summary: MyText
-  content: MyText
-  created_at: 2014-03-12 11:02:45
-  updated_at: 2014-03-12 11:02:45
+  name: MyString
+  start_at: 2014-04-02 10:45:15
+  end_at: 2014-04-02 10:45:15
 
 two:
-  title: MyString
-  date: 2014-03-12 11:02:45
-  end_date: 2014-03-12 11:02:45
-  summary: MyText
-  content: MyText
-  created_at: 2014-03-12 11:02:45
-  updated_at: 2014-03-12 11:02:45
+  name: MyString
+  start_at: 2014-04-02 10:45:15
+  end_at: 2014-04-02 10:45:15

@@ -15,10 +15,11 @@ class User < ActiveRecord::Base
 
 	belongs_to :department
 	has_many :events
+
+		
+#	validates :name, :presence=> true
+#	validates :department, :presence=> true
 	
-
-
-
 	private
 
 

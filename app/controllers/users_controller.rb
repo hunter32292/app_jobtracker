@@ -21,9 +21,13 @@ class UsersController < ApplicationController
 		redirect_to @user 
 	end
 
-
-
-
+	def update
+		if	@user = User.find(params[:user])
+			flash[:succes] = "User Updated"
+		else
+		render 'edit'
+		end
+	end
 
 	private
 		

@@ -1,4 +1,18 @@
-<!-- Display information about the current user --> 
+<!-- Display information about the current user -->
 
+<h1> User Information</h1>
 
+		<%= @user= User.find(1)%>	
+	<ul>
+		<li>
+			Username: &nbsp; <%= @user.username %>
+		</li>
+		<li>
+			Email: &nbsp; <%= @user.email %>
+		</li>
+		<li>
+			Name: &nbsp; <%= @user.name %>
+		</li>
+
+	</ul>
 
