@@ -7,6 +7,7 @@ gem 'rubycas-client'
 gem 'bootstrap-sass', '2.1'
 #gem 'icalendar'
 gem 'event-calendar', :require => 'event_calendar'
+gem 'will_paginate','3.0.3'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'

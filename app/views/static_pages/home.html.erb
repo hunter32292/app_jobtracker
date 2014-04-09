@@ -15,4 +15,51 @@
 </div>
 
 
+<ul id="tabs">
+      <li><a id="tab1">Calendar</a></li>
+      <li><a id="tab2">Users</a></li>
+      <li><a id="tab3">Message Center</a></li>
+      <li><a id="tab4">EventInfor</a></li>
+      <li><a id="tab5">Pivotal</a></li>
+    </ul>
+  
+  
+  
+  
+ <div class="containerT" id="tab1C">
+   <div class="calendar">
+      <%= render "shared/calendar" %>
+   </div>
+ </div>
+
+ <div class="containerT" id="tab2C">
+   <div class="userinfobar">
+     <%= render 'shared/user_infobar'%>
+   </div>
+  <div class="userpicker">
+     <%= render 'shared/user_picker' %>
+  </div>
+</div>
+
+
+<div class="containerT" id="tab3C">
+
+
+</div>
+ 
+<div class="containerT" id="tab4C">
+  <div class="eventinfo">
+ 	<%= render 'shared/event_info' %>
+  </div>
+</div>
+
+<div class="containerT" id="tab5C">
+	<div id="siteloader">
+   	<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+   	 <script>
+   	  $("#siteloader").html('<object data="http://www.pivotaltracker.com">');
+ 	  </script>
+ 	</div>
+</div>
+ 
 

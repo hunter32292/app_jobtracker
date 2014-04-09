@@ -64,6 +64,18 @@ p {
   line-height: 1.7em;
 }
 
+/* sharedPages */
+
+.UserInfoBox{
+
+
+}
+.UsersList{
+
+
+}
+
+
 
 /* Site Loader */
 
@@ -73,7 +85,10 @@ p {
 	border: 2px solid #555f60;
 }
 
-
+img,object,embed {
+  min-width: 100%;
+  height: auto;
+}
 
 
 /* header */
@@ -188,7 +203,7 @@ a {cursor:pointer;}
     border-left: solid 1px #CCC;
       border-right: solid 1px #CCC;
   border-bottom: solid 1px #CCC;
-    text-align:left;
+    text-align:center;
   padding-top: 20px;
 
 }

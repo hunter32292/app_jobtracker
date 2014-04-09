@@ -4,7 +4,18 @@ create selector for department
 create list of users for that department and option to click them
 -->
 
-<div class="userslist">
+<div class="UsersList">
+	<h3>Users</h3>
+
+	<ul>
+		<li>
+		<%= will_paginate(@users) %>
+		</li>
+	</ul>
+
+
+
+
 
 </div>
 
